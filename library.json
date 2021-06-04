@@ -1,0 +1,23 @@
+{
+    "name": "Arno Fan Controller",
+    "version": "1.0.0",
+    "description": "A RC controller for Arno Fan 433MHz. Compatibles models VX10 and VX12.",
+    "keywords": "rc, arno, fan",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/ralexsander/arno-fan-controller.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Ricardo Santana",
+        "email": "ralexsander@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ralexsander",
+    "frameworks": "*",
+    "platforms": "*"
+  }
