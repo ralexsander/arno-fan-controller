@@ -45,3 +45,7 @@ Este projeto foi testado usando um ESP32 (M5Stack ATOM Lite) com um transmissor 
 - RF 433 MHz -> [AliExpress](https://www.aliexpress.com/item/32961818482.html)
 
 ![ESP32 ATOM Lite](./images/atom.png)
+
+# Agradecimento
+
+Agradecimento ao [Samuel Kato](https://github.com/samuelkato/arno-vx10), que compartilhou seu trabalho fazendo a leitura dos códigos do controle usando um ociloscópio.
