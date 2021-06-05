@@ -47,7 +47,7 @@ class ArnoController {
     void init();
     // Set device
     void setDevice (int device);
-    // Send a raw hex code with 500 microseconds frequency, repeated 5x
+    // Send a raw hex code with 500 microseconds frequency, repeated 3x
     void sendRaw (const char code[]);
     // Send a raw hex code with 500 microseconds frequency
     void sendRaw (const char code[], int repeat);

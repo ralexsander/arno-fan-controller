@@ -25,7 +25,7 @@ void ArnoController::setDevice(int device) {
 }   //  setDevice
 
 void ArnoController::sendRaw (const char code[]) {
-    sendRaw (code, 5);
+    sendRaw (code, 3);
 }   //  sendRaw
 
 void ArnoController::sendRaw (const char code[], int repeat) {
