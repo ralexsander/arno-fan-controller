@@ -21,7 +21,6 @@ void ArnoController::init() {
 
 void ArnoController::setDevice(int device) {
     this->device = device;
-    init();
 }   //  setDevice
 
 void ArnoController::sendRaw (const char code[]) {
@@ -29,6 +28,7 @@ void ArnoController::sendRaw (const char code[]) {
 }   //  sendRaw
 
 void ArnoController::sendRaw (const char code[], int repeat) {
+    init();
     int length = strlen (code);
     digitalWrite(pin, LOW);
     delayMicroseconds(500);
@@ -47,6 +47,8 @@ void ArnoController::sendRaw (const char code[], int repeat) {
             delayMicroseconds(500);        
         }
     }
+    //  Clear transmission
+    pinMode(pin, DISABLED);
 }   //  sendRaw
 
 void ArnoController::send(Command cmd) {
