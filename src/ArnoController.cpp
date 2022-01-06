@@ -48,7 +48,7 @@ void ArnoController::sendRaw (const char code[], int repeat) {
         }
     }
     //  Clear transmission
-    pinMode(pin, DISABLED);
+    pinMode(pin, LOW);
 }   //  sendRaw
 
 void ArnoController::send(Command cmd) {

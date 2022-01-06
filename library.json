@@ -1,6 +1,6 @@
 {
     "name": "ArnoController",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A RC controller for Arno Fan 433MHz. Compatibles models VX10 and VX12.",
     "keywords": "rc, arno, fan",
     "repository":

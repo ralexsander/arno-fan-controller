@@ -30,7 +30,7 @@ class ArnoController {
   private:
     byte pin;
     byte device;
-    char buffer[27];
+    char buffer[32];
     const char preffix_code [19] = "FF333333331117";
     const char light_code [9]    = "71717171";
     const char fan_code [9]      = "17171717";
