@@ -41,8 +41,8 @@ Faça o download da versão mais recente e coloque no diretório libraries dentr
 
 Este projeto foi testado usando um ESP32 (M5Stack ATOM Lite) com um transmissor RF 433.93. Para o teste eu usei 2 ventiladores um com o DIP Switch configurado em 0 (0000) e outro em 4 (0100), não foi testado outras combinações com o DIP Switch, portanto existe a possibilidade de não ter sido mapeado corretamente a configuração para identificar o ventilador desejado. Eu vou comprar mais um aparelho igual para outro cômodo da minha casa e quando chegar eu faço um teste para saber o se o DIP Switch está mapeado corretamente.
 
-- ESP32 ATOM Lite -> [AliExpress](https://www.aliexpress.com/item/4000576823662.html)
-- RF 433 MHz -> [AliExpress](https://www.aliexpress.com/item/32961818482.html)
+- ESP32 ATOM Lite -> [AliExpress](https://s.click.aliexpress.com/e/_DDBIr13)
+- RF 433 MHz -> [AliExpress](https://s.click.aliexpress.com/e/_DdeAHoZ)
 
 ![ESP32 ATOM Lite](./images/atom.png)
 
